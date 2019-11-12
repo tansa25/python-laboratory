@@ -7,4 +7,3 @@ def validator (prompt):
 	else: print ("Дата вірна")
 		
 date = validator ("Введіть дату: ")
-
