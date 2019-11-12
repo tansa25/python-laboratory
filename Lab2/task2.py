@@ -8,9 +8,7 @@ def int_valid (prompt):
 	return (int(a))
 
 print("Корнієнко Т.С.\n Лабораторна робота 2\n Варіант13\n2.2   Організація циклу за допомогою оператора while\n ")
-
 x = int_valid("Введіть значення:")
-
 canBeDivided = False
 
 while x > 1:
