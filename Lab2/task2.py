@@ -2,7 +2,7 @@ import re
 
 def int_valid (prompt):
 	a = input (prompt)
-	while not bool (re.match(r'[0-9](\d+)?\Z', a)):
+	while not bool (re.match(r'[1-9](\d+)?\Z', a)):
 		print ("Необхідно ввести натуральне число")
 		a = input (prompt)
 	return (int(a))
